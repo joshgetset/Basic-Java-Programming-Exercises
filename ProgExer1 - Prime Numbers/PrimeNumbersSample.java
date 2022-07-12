@@ -2,7 +2,7 @@ public class PrimeNumbersSample
 {
    public static void main (String[] args)
    {
-      int lineCounter = 0;
+      int lineCtr = 0;
       StringBuilder PrimeNum = new StringBuilder();
 
       for (int i = 1; i <= 100; i++)         
@@ -21,12 +21,12 @@ public class PrimeNumbersSample
       {
 
        PrimeNum.append(i).append("\t");
-       lineCounter++;
+       lineCtr++;
     } 
-    if(lineCounter == 5)
+    if(lineCtr == 5)
     {
       PrimeNum.append(System.lineSeparator());
-      lineCounter = 0;
+      lineCtr = 0;
    }  
 } 
 }
